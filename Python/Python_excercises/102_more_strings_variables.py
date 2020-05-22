@@ -3,12 +3,14 @@
 
 # Version 1 specs - with concatenation
 # define a variable name, and assign a string
-
+colour = "red"
 # prompt the user for input and ask the user for his/her name
+name = input("What is your name?")
 # re assign the original variable this this input
 
-# use concatenation to print a welcome message and use methods to format the name/input (remove white spaces)
 
+# use concatenation to print a welcome message and use methods to format the name/input (remove white spaces)
+print("hello" + " " + name + "" + ", we are welcome to have you!")
 # Version 2 - with interpolation
 
 # ask the user for a first name, save it in a variable

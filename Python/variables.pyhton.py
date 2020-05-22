@@ -67,8 +67,8 @@
 # print(greetings.startswith("H"))
 # print(greetings.endswith("!"))
 
-my_landlord = ['alfredo','betty','joanna','Mr. summerbee']
-print(my_landlord)
+# my_landlord = ['alfredo','betty','joanna','Mr. summerbee']
+# print(my_landlord)
 #       index = [0      ,  1    ,    2   ,      3
 
 # access on entry of the list
@@ -92,7 +92,8 @@ print(my_landlord)
 # print(my_landlord)
 
 # remove entry and index 3
-my_landlord.pop(3)
-print(my_landlord)
+# my_landlord.pop(3)
+# print(my_landlord)
 
-
+def my_function():
+    print("Hello from a function")
