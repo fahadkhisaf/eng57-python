@@ -6,13 +6,19 @@
 
 
 # We should define/assign number to a variable called magic_number
-# magic_number =
+import random
+magic_number = random.randrange(1, 201)
 
 # I need to ask user for input
+user_input = int(input('What is the magic number? '))
+if user_input == magic_number:
+    print('hoorayyyy!!!')
+else:
+    print('thats incorrect ')
 
-
+print(magic_number)
 # I need to check if this input matches a magic_number
 
 
-# I need to let the user know if the response was write or not
+# I need to let the user know if the response was right or not
 #self five

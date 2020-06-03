@@ -1,7 +1,7 @@
-# favourite_colour = "Red "
-# best_team = "Man Utd"
-# combined_str = favourite_colour + best_team
-# print(combined_str)
+#favourite_colour = "Red "
+#best_team = "Man Utd"
+#combined_str = favourite_colour + best_team
+#print(combined_str)
 
 # print("What is your name?")
 # first_name=input()
@@ -30,25 +30,25 @@
 # white_space = "lot's of space at the end"
 # print(len(white_space.strip()))
 
-# example_text = "some text here "
-# print(example_text.count("here"))
+#example_text = "some text here "
+#print(example_text.count("here"))
 
 # bring everything to lowercase
 #ex_text = "LOWER CASE"
 #print(ex_text.lower())
 # print(ex_text.upper()) - for upper case
 
-# ex_text = "some text"
-# print(ex_text.capitalize())
+#ex_text = "some text"
+#print(ex_text.capitalize())
 
 # ex_text = "some text"
 # print(ex_text.replace("some","plenty"))
 
 # concatenation & casting
-# x = 2
-# y = 5.4
-# z = "there's now a number"
-# print(z + " "+ str(x) +" " + str(y+x))
+#x = 2
+#y = 5.4
+#z = "there's now a number"
+#print(z + " "+ str(x) +" " + str(y+x))
 
 # x = "2"
 # # find the type of variable
@@ -95,5 +95,4 @@
 # my_landlord.pop(3)
 # print(my_landlord)
 
-def my_function():
-    print("Hello from a function")
+
