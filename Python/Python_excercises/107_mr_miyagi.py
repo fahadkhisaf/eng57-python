@@ -7,11 +7,10 @@
 # Ask for user input and depending on the response, mr Miyagi will respond.
 #
 # prompt user for input
-user_input = input('Ask Mr Miyagi a question? ')
+
 # Evaluate each input and print the appropriate responses
 # Follow these rules:
-if user_input:
-    print('questions are wise, but for now. Wax on, and Wax off!')
+
 # every time you ask a question --> Mr. Miyagi responde with
     # --> 'questions are wise, but for now. Wax on, and Wax off!'
 # every statement/question must start with Sensei, otherwise:
@@ -25,8 +24,22 @@ if user_input:
 # Make it so you keep playing until we say: 'Sensei, I am at peace'
     # --> 'Sometimes, what heart know, head forget'
 
-# your_response = input('(MR.Miyagi)... -.-')
+while True:
+    user_input = input('Never trust a leader who cannot dance, ask me anything ')
 
-#  EXTRA:
-#  make it run continuously
-#  consider best practices of functions - make this functional
+    if not user_input.startswith('sensei'):
+        print('You are smart, but not wise - address me as Sensei please')
+    else:
+        if "sensei, i am at peace" in user_input:
+            print('sometimes,what hearts knows, heads forget')
+            break
+        elif '?' in user_input:
+            print('questions are wise')
+        elif user_input.count('block') >= 1:
+            print('Best block is not to be there')
+        else:
+            print('do not lose focus')
+
+
+
+

@@ -21,13 +21,13 @@ print(("hello" + " " + name + "" + ", we are welcome to have you!").strip())
 
 
 # Calculate year of birth
-age = int(input('How old are you?'))
-birthday_gone = input('Has your birthday passed?  yes/no')
-if birthday_gone == 'yes'
-    birthday_gone = 0
-else:
-    birthday_gone = 1
-    birthday_gone = 2020 - age - birthday_gone
+# age = int(input('How old are you?'))
+# birthday_gone = input('Has your birthday passed?  yes/no')
+# if birthday_gone == 'yes':
+#     birthday_gone = 0
+# else:
+#     birthday_gone = 1
+#     birthday_gone = 2020 - age - birthday_gone
 # gather details on age and name
 
 # print something like

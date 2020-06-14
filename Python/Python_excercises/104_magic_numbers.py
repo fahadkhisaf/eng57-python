@@ -6,9 +6,9 @@
 
 
 # We should define/assign number to a variable called magic_number
-import random
-magic_number = random.randrange(1, 201)
 
+import random
+magic_number = random.randint(0,11)
 # I need to ask user for input
 user_input = int(input('What is the magic number? '))
 if user_input == magic_number:
@@ -16,7 +16,7 @@ if user_input == magic_number:
 else:
     print('thats incorrect ')
 
-print(magic_number)
+print(f'The magic number is, {magic_number}')
 # I need to check if this input matches a magic_number
 
 

@@ -21,20 +21,21 @@ print(example_xmas[1])
 print(example_xmas[-1])
 
 # Re-define the first item on the list and
-example_xmas[0] = "action man"
+example_xmas[0] = 'Action man'
 
 
 # Re-define another item on the list and print all the list
-example_xmas[-1] = "perfume"
-
-# Add an item to the list and print the list
+example_xmas[1] = 'Barbie'
 print(example_xmas)
 
+# Add an item to the list and print the list
+example_xmas.append('playstation')
+print(example_xmas)
 # Remove an item from the list and print the list
-example_xmas.pop(0)
+example_xmas.pop(-1)
+print(example_xmas)
 
 # Add two items to list and print the list
-
 example_xmas.append('iphone')
-example_xmas.append('money for icecream')
+example_xmas.append('car')
 print(example_xmas)
